@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: payment
+  profiles:
+    active:
+      - jdbc
+  config:
+    import: "optional:configserver:http://localhost:8020/configuration/config"
+
+
+  autoconfigure:
+    exclude: "org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration"
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
