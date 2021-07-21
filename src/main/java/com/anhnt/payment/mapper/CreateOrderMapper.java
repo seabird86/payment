@@ -1,6 +1,6 @@
 package com.anhnt.payment.mapper;
 
-import com.anhnt.domain.event.OrderCreatedEvent;
+import com.anhnt.common.domain.payment.event.OrderCreatedEvent;
 import com.anhnt.payment.repository.entity.OrderEntity;
 import org.mapstruct.Mapper;
 

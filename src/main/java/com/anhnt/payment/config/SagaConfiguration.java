@@ -1,7 +1,7 @@
 package com.anhnt.payment.config;
 
 import com.anhnt.payment.consumer.CustomerEventConsumer;
-import com.anhnt.domain.event.OrderSnapshotEvent;
+import com.anhnt.common.domain.payment.event.OrderSnapshotEvent;
 import com.anhnt.payment.repository.OrderRepository;
 import com.anhnt.payment.repository.entity.OrderEntity;
 import io.eventuate.tram.events.common.DomainEvent;

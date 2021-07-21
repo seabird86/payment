@@ -1,6 +1,6 @@
 package com.anhnt.payment.service;
 
-import com.anhnt.payment.constant.OrderState;
+import com.anhnt.common.domain.payment.constant.OrderState;
 import com.anhnt.payment.controller.request.CreateOrderRequest;
 import com.anhnt.payment.mapper.CreateOrderMapper;
 import com.anhnt.payment.repository.OrderRepository;

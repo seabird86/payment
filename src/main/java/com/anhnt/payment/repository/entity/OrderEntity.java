@@ -1,7 +1,7 @@
 package com.anhnt.payment.repository.entity;
 
 
-import com.anhnt.payment.constant.OrderState;
+import com.anhnt.common.domain.payment.constant.OrderState;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
