@@ -1,7 +1,8 @@
 package com.anhnt.payment.controller;
 
-import com.anhnt.payment.controller.request.TransactionCreateRequest;
+import com.anhnt.common.domain.payment.request.TransactionCreateRequest;
 import com.anhnt.payment.repository.TransactionRepository;
+
 import com.anhnt.payment.repository.entity.TransactionEntity;
 import com.anhnt.payment.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;

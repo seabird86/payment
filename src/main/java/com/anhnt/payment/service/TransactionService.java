@@ -1,7 +1,7 @@
 package com.anhnt.payment.service;
 
 import com.anhnt.common.domain.payment.constant.TransactionStatus;
-import com.anhnt.payment.controller.request.TransactionCreateRequest;
+import com.anhnt.common.domain.payment.request.TransactionCreateRequest;
 import com.anhnt.payment.mapper.TransactionMapper;
 import com.anhnt.payment.repository.TransactionRepository;
 import com.anhnt.payment.repository.entity.TransactionEntity;

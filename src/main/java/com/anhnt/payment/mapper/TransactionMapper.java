@@ -1,6 +1,6 @@
 package com.anhnt.payment.mapper;
 
-import com.anhnt.payment.controller.request.TransactionCreateRequest;
+import com.anhnt.common.domain.payment.request.TransactionCreateRequest;
 import com.anhnt.payment.repository.entity.TransactionEntity;
 import org.mapstruct.Mapper;
 
