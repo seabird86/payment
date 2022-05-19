@@ -1,11 +1,12 @@
 spring:
   application:
     name: payment
-  profiles:
-    active:
-      - jdbc
+#  profiles:
+#    active:
+#      - jdbc
+#      - vault
   config:
-    import: "optional:configserver:http://localhost:8020/configuration/config"
+    import: "optional:configserver:http://localhost:7000/configuration/config"
 
 
   autoconfigure:

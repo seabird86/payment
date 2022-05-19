@@ -17,7 +17,8 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @ToString
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class CreateOrderRequest {
+public class TransactionCreateRequest {
+  private Long payerId;
+  private Long payeeId;
   private BigDecimal amount;
-  private Long customerId;
 }
