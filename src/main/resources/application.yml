@@ -6,7 +6,7 @@ spring:
 #      - jdbc
 #      - vault
   config:
-    import: "optional:configserver:http://localhost:7000/configuration/config"
+    import: "optional:configserver:http://ANHNT:ANHNT-PASS@localhost:7000/configuration/config"
 
 
   autoconfigure:
